@@ -22,3 +22,11 @@ body{
     right: 1vmin;
     top: 1vmin;
 }
+
+.start-screen{
+    position: absolute;
+    font-size: 5vmin;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+}
