@@ -10,3 +10,15 @@ body{
     align-items: center;
     min-height: 100vh;
 }
+
+.world{
+    overflow: hidden;
+    position: relative;
+}
+
+.score{
+    position: absolute;
+    font-size: 3vmin;
+    right: 1vmin;
+    top: 1vmin;
+}
