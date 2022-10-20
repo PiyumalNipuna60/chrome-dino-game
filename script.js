@@ -69,7 +69,13 @@ function handleStart() {
     window.requestAnimationFrame(update)
 }
 
-
+function handleLose() {
+    setDinoLose()
+    setTimeout(() => {
+        document.addEventListener("keydown", handleStart, { once: true })
+        startScreenElem.classList.remove("hide")
+    }, 100)
+}
 
 function setPixelToWorldScale() {
     let worldToPixelScale
