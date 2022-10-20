@@ -1,4 +1,5 @@
-import { } from "./ground.js"
+import { updateGround, setupGround } from "./ground.js"
+import { updateDino, setupDino, getDinoRect, setDinoLose } from "./dino.js"
 
 
 const WORLD_WIDTH = 100
