@@ -14,7 +14,15 @@ let isJumping
 let dinoFrame
 let currentFrameTime
 let yVelocity
-
+export function setupDino() {
+    isJumping = false
+    dinoFrame = 0
+    currentFrameTime = 0
+    yVelocity = 0
+    setCustomProperty(dinoElem, "--bottom", 0)
+    document.removeEventListener("keydown", onJump)
+    document.addEventListener("keydown", onJump)
+}
 
 
 
