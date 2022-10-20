@@ -49,7 +49,9 @@ function isCollision(rect1, rect2) {
     )
 }
 
-
+function updateSpeedScale(delta) {
+    speedScale += delta * SPEED_SCALE_INCREASE
+}
 
 
 
