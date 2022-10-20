@@ -24,7 +24,10 @@ export function setupDino() {
     document.addEventListener("keydown", onJump)
 }
 
-
+export function updateDino(delta, speedScale) {
+    handleRun(delta, speedScale)
+    handleJump(delta)
+}
 
 
 
