@@ -58,7 +58,16 @@ function updateScore(delta) {
     scoreElem.textContent = Math.floor(score)
 }
 
-
+function handleStart() {
+    lastTime = null
+    speedScale = 1
+    score = 0
+    setupGround()
+    setupDino()
+    setupCactus()
+    startScreenElem.classList.add("hide")
+    window.requestAnimationFrame(update)
+}
 
 
 
