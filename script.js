@@ -35,7 +35,10 @@ function update(time) {
     window.requestAnimationFrame(update)
 }
 
-
+function checkLose() {
+    const dinoRect = getDinoRect()
+    return getCactusRects().some(rect => isCollision(rect, dinoRect))
+}
 
 
 
