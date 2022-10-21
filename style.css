@@ -9,6 +9,9 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background-image: url("assets/image/NW0mK39.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .world{
@@ -20,9 +23,17 @@ height: 300px;
 
 .score{
     position: absolute;
-    font-size: 3vmin;
+    font-size: 5vmin;
     right: 1vmin;
     top: 1vmin;
+    color: red;
+}
+body>div>a{
+    position: absolute;
+    font-size: 4vmin;
+    right: 7vmin;
+    top: 1vmin;
+    color: red;
 }
 
 .start-screen{
