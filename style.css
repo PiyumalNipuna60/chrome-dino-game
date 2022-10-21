@@ -26,12 +26,13 @@ height: 300px;
     font-size: 5vmin;
     right: 1vmin;
     top: 1vmin;
-    color: red;
+    color: orange;
 }
+
 body>div>a{
     position: absolute;
     font-size: 4vmin;
-    right: 7vmin;
+    right: 10vmin;
     top: 1vmin;
     color: red;
 }
@@ -44,14 +45,15 @@ body>div>a{
     transform: translate(-50% -50%);
 }
 
-/*.hide{*/
-/*    display: none;*/
-/*}*/
+.hide{
+    display: none;
+}
 
 .ground{
     --left:0;
     position: absolute;
-    width: 300%;
+    width: 1000%;
+    height: 10%;
     bottom: 0;
     left: calc(var(--left)*1%);
 }
